@@ -1,0 +1,20 @@
+{
+  "name": "do-credit-bot",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:jsdrupal/do-credit-bot.git",
+  "author": "Daniel Wehner <dawehner@googlemail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "koa": "^2.5.0",
+    "koa-body": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "nodemon": "^1.17.2",
+    "superagent": "^3.8.2"
+  }
+}
